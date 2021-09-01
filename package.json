@@ -2,10 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna bootstrap && lerna run build && lerna publish"
+    "publish": "lerna bootstrap && lerna run build"
   },
   "devDependencies": {
-    "@babel/helper-plugin-utils": "^7.14.5",
     "lerna": "^4.0.0"
   }
 }

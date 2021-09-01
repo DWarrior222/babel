@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unknown plugin console.xx前插入了CallExpression的AST: console.xx前插入了CallExpression的AST 1`] = `
+
+let a = 1;
+console.log(a);
+[1, 2].map(d => d);
+console.error('error');
+
+{
+  const cc = 3;
+  console.log(cc, 'cc');
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+let a = 1;
+console.log("/Users/guanshuaijie/code/babel/babel-console: (2, 0)");
+console.log(a);
+[1, 2].map((d) => d);
+console.log("/Users/guanshuaijie/code/babel/babel-console: (4, 0)");
+console.error("error");
+{
+  const cc = 3;
+  console.log("/Users/guanshuaijie/code/babel/babel-console: (8, 2)");
+  console.log(cc, "cc");
+}
+
+
+`;

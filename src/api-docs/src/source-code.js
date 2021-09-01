@@ -2,8 +2,9 @@
  * 递归过滤数据
  * @param {array} list 数据源列表
  * @param {array} fnList 过滤函数列表
+ * @returns {array} 过滤后的列表
  */
-export function deepFilter(list, fnList = []) {
+export function deepFilter(list = [], fnList = []) {
   if (!fnList?.length) {
     return list;
   }
@@ -16,6 +17,8 @@ export function deepFilter(list, fnList = []) {
 
   return deepFilter(ret, fnList);
 }
+
+export const a = 1;
 
 /**
  * 类测试
