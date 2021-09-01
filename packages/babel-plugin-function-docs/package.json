@@ -9,7 +9,7 @@
     "build": "echo 'build'"
   },
   "keywords": [],
-  "author": "",
+  "author": "guanshuaijie",
   "license": "ISC",
   "devDependencies": {
     "@babel/generator": "^7.15.0",
@@ -17,5 +17,5 @@
     "doctrine": "^3.0.0",
     "fs-extra": "^10.0.0"
   },
-  "gitHead": "d08d5a814b5d310a679af612288d8ee3e952e76b"
+  "gitHead": "1fe5ef2214a39d61688c9e8594ee2d859f5fc85a"
 }
