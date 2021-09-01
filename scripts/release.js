@@ -12,9 +12,12 @@ async function main() {
   // generate changelog
   await execa(require.resolve('lerna/cli'), ['run', 'changelog'], { stdio: 'inherit' })
   // commit build file and changelog
-  await execa('git', ['commit', '-am', 'chore: pre release sync'], { stdio: 'inherit' })
+  try {
+    await execa('git', ['commit', '-am', 'chore: pre release sync'], { stdio: 'inherit' })
+  } catch (error) {
+  }
 
+  await execa('git', ['push', '-f'], { stdio: 'inherit' })
   // publish: generate version and push
   await execa(require.resolve('lerna/cli'), ['publish'], { stdio: 'inherit' })
-  execa('git', ['push', '-f'], { stdio: 'inherit' })
 }
