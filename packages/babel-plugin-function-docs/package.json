@@ -17,5 +17,8 @@
     "doctrine": "^3.0.0",
     "fs-extra": "^10.0.0"
   },
-  "gitHead": "4544d2fb9362c94ed6018b3aa547bda1801cb408"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "0bdd30c49ba687efc69eae9af99a36eaa7771700"
 }
