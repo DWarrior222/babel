@@ -16,5 +16,6 @@
     "@babel/helper-plugin-utils": "^7.14.5",
     "doctrine": "^3.0.0",
     "fs-extra": "^10.0.0"
-  }
+  },
+  "gitHead": "d08d5a814b5d310a679af612288d8ee3e952e76b"
 }
