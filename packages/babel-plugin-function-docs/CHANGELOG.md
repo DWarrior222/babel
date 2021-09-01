@@ -1,3 +1,12 @@
+## [0.0.2-alpha.0](https://github.com/DWarrior222/babel/compare/v0.0.1-alpha.0...v0.0.2-alpha.0) (2021-09-01)
+
+
+### Features
+
+* release process ([19a0e4f](https://github.com/DWarrior222/babel/commit/19a0e4f9db59bbfd0803b6dbd8f5b1e7cbe6eb3a))
+
+
+
 ## [0.0.1-alpha.0](https://github.com/DWarrior222/babel/compare/af097abfabf05709b496f48bffbe7379c5571366...v0.0.1-alpha.0) (2021-09-01)
 
 
