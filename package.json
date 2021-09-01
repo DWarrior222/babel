@@ -2,9 +2,12 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna bootstrap && lerna run build"
+    "publish": "lerna bootstrap && lerna publish"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "enquirer": "^2.3.6",
+    "execa": "^5.1.1",
+    "lerna": "^4.0.0",
+    "minimist": "^1.2.5"
   }
 }
