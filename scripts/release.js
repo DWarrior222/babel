@@ -16,4 +16,5 @@ async function main() {
 
   // publish: generate version and push
   execa(require.resolve('lerna/cli'), ['publish'], { stdio: 'inherit' })
+  execa('git', ['push', '-f'], { stdio: 'inherit' })
 }
