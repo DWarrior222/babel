@@ -1,3 +1,12 @@
+## [0.0.3-alpha.0](https://github.com/DWarrior222/babel/compare/v0.0.2-alpha.0...v0.0.3-alpha.0) (2021-09-01)
+
+
+### Features
+
+* package name ([2c704ba](https://github.com/DWarrior222/babel/commit/2c704ba9790bea4de2cf621331d3fbbde150470a))
+
+
+
 ## [0.0.2-alpha.0](https://github.com/DWarrior222/babel/compare/v0.0.1-alpha.0...v0.0.2-alpha.0) (2021-09-01)
 
 
