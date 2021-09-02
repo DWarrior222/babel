@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unknown plugin export声明式函数: export声明式函数 1`] = `
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+
+interface ListItem {
+  [propName: string]: any;
+}
+
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+export function deepFilter(list: Array<ListItem>, fnList: FilterFn[], test: string, arr: string[]): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, '1', ['1']);
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+interface ListItem {
+  [propName: string]: any;
+}
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+
+export function deepFilter(
+  list: Array<ListItem>,
+  fnList: FilterFn[],
+  test: string,
+  arr: string[]
+): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, "1", ["1"]);
+}
+
+
+`;
+
+exports[`unknown plugin nocode: nocode 1`] = `
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+
+interface ListItem {
+  [propName: string]: any;
+}
+
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+export function deepFilter(list: Array<ListItem>, fnList: FilterFn[], test: string, arr: string[]): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, '1', ['1']);
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+interface ListItem {
+  [propName: string]: any;
+}
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+
+export function deepFilter(
+  list: Array<ListItem>,
+  fnList: FilterFn[],
+  test: string,
+  arr: string[]
+): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, "1", ["1"]);
+}
+
+
+`;
+
+exports[`unknown plugin 声明式函数: 声明式函数 1`] = `
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+
+interface ListItem {
+  [propName: string]: any;
+}
+
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+function deepFilter(list: Array<ListItem>, fnList: FilterFn[], test: string, arr: string[]): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, '1', ['1']);
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+interface FilterFn {
+  (list: ListItem[]): ListItem[];
+}
+interface ListItem {
+  [propName: string]: any;
+}
+/**
+ * 递归过滤数据
+ * @param  {Array<ListItem>} list 注释1
+ * @param  {FilterFn[]} fnList 注释2
+ * @param  {string} test 注释3
+ * @param  {string[]} arr
+ * @returns 注释5
+ */
+
+function deepFilter(
+  list: Array<ListItem>,
+  fnList: FilterFn[],
+  test: string,
+  arr: string[]
+): ListItem[] {
+  if (!fnList.length) {
+    return list;
+  }
+
+  let fn = fnList.shift();
+  const data = fn(list);
+  return deepFilter(data, fnList, "1", ["1"]);
+}
+
+
+`;
+
+exports[`unknown plugin 简单函数: 简单函数 1`] = `
+
+/**
+ * 递归过滤数据
+ * @param  {string} a 注释1
+ * @param  {string} b 注释2
+ * @returns {string} 注释3
+ */
+export function deepFilter(a: string, b: string): string {
+  return a + b;
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+/**
+ * 递归过滤数据
+ * @param  {string} a 注释1
+ * @param  {string} b 注释2
+ * @returns {string} 注释3
+ */
+export function deepFilter(a: string, b: string): string {
+  return a + b;
+}
+
+
+`;
