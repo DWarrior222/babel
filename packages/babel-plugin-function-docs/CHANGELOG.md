@@ -1,3 +1,12 @@
+## [0.0.11-alpha.0](https://github.com/DWarrior222/babel/compare/v0.0.10-alpha.0...v0.0.11-alpha.0) (2021-09-02)
+
+
+### Features
+
+* **plugin:** 异常处理 ([9a2eb72](https://github.com/DWarrior222/babel/commit/9a2eb729b07f7349a1d1080e1c70b6e7e0133e0e))
+
+
+
 ## [0.0.10-alpha.0](https://github.com/DWarrior222/babel/compare/v0.0.9-alpha.0...v0.0.10-alpha.0) (2021-09-01)
 
 
