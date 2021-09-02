@@ -11,7 +11,11 @@ module.exports = declare((api, options, dirname) => {
   const defaultDocsName = options.filename || 'function-docs';
   const ext = options.ext || '.md'
   const outputDir = options.outputDir || path.resolve(process.cwd()) + '/docs';
-  fse.removeSync(outputDir);
+  try {
+    options.clean && fse.removeSync(outputDir);
+    !options.clean && fse.removeSync(path.join(outputDir, defaultDocsName + ext))
+  } catch (error) {
+  }
   return {
     pre(file) {
       const filename = file.opts.filename;

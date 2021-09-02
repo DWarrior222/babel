@@ -18,16 +18,16 @@ module.exports = function (docs, common = {}) {
   //   name: 'fnList'
   // }
   // `
-  
+
   return docs.reduce((pre, {
     type,
     name,
     description,
     params,
     returns,
-    interface
+    interface: interfaceList = []
   }) => {
-    pre = `${pre}${getTitleAndDescr(name, description, type)}${getCallWay(name, params, returns)}${getParams(params)}${getInterface(interface, common)}`
+    pre = `${pre}${getTitleAndDescr(name, description, type)}${getCallWay(name, params, returns)}${getParams(params)}${getInterface(interfaceList, common)}`
     
     return pre;
   }, '');
@@ -56,9 +56,10 @@ function getParams(params) {
   return `### Parameters\n${content}\n`
 }
 
-function getInterface(interface = [], common = {}) {
-  if (!interface.length) return '';
-  const content = interface.map(d => `// ${common[d].name} \n${common[d].code}\n`).join('\n');
+function getInterface(interfaceList = [], common = {}) {
+  console.log(interfaceList);
+  if (!interfaceList.length) return '';
+  const content = interfaceList.map(d => `// ${common[d].name} \n${common[d].code}\n`).join('\n');
   
   return `### 接口定义\n\`\`\`js\n${content}\`\`\``
 }
