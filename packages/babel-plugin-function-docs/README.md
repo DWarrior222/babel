@@ -12,7 +12,7 @@ module.exports = {
     [
       docsPlugin,
       {
-        outputDir: path.resolve(__dirname, './docs')
+        outputDir: path.resolve(__dirname, './docs'),
         include: 'utils.js',
         filename: 'index',
         ext: '.md'
