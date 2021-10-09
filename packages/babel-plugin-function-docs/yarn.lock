@@ -3,83 +3,83 @@
 
 
 "@babel/generator@^7.15.0":
-  version "7.15.0"
-  resolved "https://registry.nlark.com/@babel/generator/download/@babel/generator-7.15.0.tgz#a7d0c172e0d814974bad5aa77ace543b97917f15"
-  integrity sha1-p9DBcuDYFJdLrVqnes5UO5eRfxU=
+  "integrity" "sha1-p9DBcuDYFJdLrVqnes5UO5eRfxU="
+  "resolved" "https://registry.nlark.com/@babel/generator/download/@babel/generator-7.15.0.tgz"
+  "version" "7.15.0"
   dependencies:
     "@babel/types" "^7.15.0"
-    jsesc "^2.5.1"
-    source-map "^0.5.0"
+    "jsesc" "^2.5.1"
+    "source-map" "^0.5.0"
 
 "@babel/helper-plugin-utils@^7.14.5":
-  version "7.14.5"
-  resolved "https://registry.nlark.com/@babel/helper-plugin-utils/download/@babel/helper-plugin-utils-7.14.5.tgz#5ac822ce97eec46741ab70a517971e443a70c5a9"
-  integrity sha1-WsgizpfuxGdBq3ClF5ceRDpwxak=
+  "integrity" "sha1-WsgizpfuxGdBq3ClF5ceRDpwxak="
+  "resolved" "https://registry.nlark.com/@babel/helper-plugin-utils/download/@babel/helper-plugin-utils-7.14.5.tgz"
+  "version" "7.14.5"
 
 "@babel/helper-validator-identifier@^7.14.9":
-  version "7.14.9"
-  resolved "https://registry.nlark.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.14.9.tgz?cache=0&sync_timestamp=1627804430461&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-validator-identifier%2Fdownload%2F%40babel%2Fhelper-validator-identifier-7.14.9.tgz#6654d171b2024f6d8ee151bf2509699919131d48"
-  integrity sha1-ZlTRcbICT22O4VG/JQlpmRkTHUg=
+  "integrity" "sha1-ZlTRcbICT22O4VG/JQlpmRkTHUg="
+  "resolved" "https://registry.nlark.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.14.9.tgz?cache=0&sync_timestamp=1627804430461&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-validator-identifier%2Fdownload%2F%40babel%2Fhelper-validator-identifier-7.14.9.tgz"
+  "version" "7.14.9"
 
 "@babel/types@^7.15.0":
-  version "7.15.0"
-  resolved "https://registry.nlark.com/@babel/types/download/@babel/types-7.15.0.tgz?cache=0&sync_timestamp=1628111608723&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.15.0.tgz#61af11f2286c4e9c69ca8deb5f4375a73c72dcbd"
-  integrity sha1-Ya8R8ihsTpxpyo3rX0N1pzxy3L0=
+  "integrity" "sha1-Ya8R8ihsTpxpyo3rX0N1pzxy3L0="
+  "resolved" "https://registry.nlark.com/@babel/types/download/@babel/types-7.15.0.tgz?cache=0&sync_timestamp=1628111608723&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.15.0.tgz"
+  "version" "7.15.0"
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.9"
-    to-fast-properties "^2.0.0"
+    "to-fast-properties" "^2.0.0"
 
-doctrine@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.nlark.com/doctrine/download/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
-  integrity sha1-rd6+rXKmV023g2OdyHoSF3OXOWE=
+"doctrine@^3.0.0":
+  "integrity" "sha1-rd6+rXKmV023g2OdyHoSF3OXOWE="
+  "resolved" "https://registry.nlark.com/doctrine/download/doctrine-3.0.0.tgz"
+  "version" "3.0.0"
   dependencies:
-    esutils "^2.0.2"
+    "esutils" "^2.0.2"
 
-esutils@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.nlark.com/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
-  integrity sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q=
+"esutils@^2.0.2":
+  "integrity" "sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q="
+  "resolved" "https://registry.nlark.com/esutils/download/esutils-2.0.3.tgz"
+  "version" "2.0.3"
 
-fs-extra@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.nlark.com/fs-extra/download/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
-  integrity sha1-n/YbZV3eU/s0qC34S7IUzoAuF8E=
+"fs-extra@^10.0.0":
+  "integrity" "sha1-n/YbZV3eU/s0qC34S7IUzoAuF8E= sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ=="
+  "resolved" "https://registry.nlark.com/fs-extra/download/fs-extra-10.0.0.tgz"
+  "version" "10.0.0"
   dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
+    "graceful-fs" "^4.2.0"
+    "jsonfile" "^6.0.1"
+    "universalify" "^2.0.0"
 
-graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.8"
-  resolved "https://registry.nlark.com/graceful-fs/download/graceful-fs-4.2.8.tgz?cache=0&sync_timestamp=1628194078324&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
-  integrity sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo=
+"graceful-fs@^4.1.6", "graceful-fs@^4.2.0":
+  "integrity" "sha1-5BK40z9eAGWTy9PO5t+fLOu+gCo="
+  "resolved" "https://registry.nlark.com/graceful-fs/download/graceful-fs-4.2.8.tgz?cache=0&sync_timestamp=1628194078324&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.8.tgz"
+  "version" "4.2.8"
 
-jsesc@^2.5.1:
-  version "2.5.2"
-  resolved "https://registry.nlark.com/jsesc/download/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
-  integrity sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q=
+"jsesc@^2.5.1":
+  "integrity" "sha1-gFZNLkg9rPbo7yCWUKZ98/DCg6Q="
+  "resolved" "https://registry.nlark.com/jsesc/download/jsesc-2.5.2.tgz"
+  "version" "2.5.2"
 
-jsonfile@^6.0.1:
-  version "6.1.0"
-  resolved "https://registry.nlark.com/jsonfile/download/jsonfile-6.1.0.tgz#bc55b2634793c679ec6403094eb13698a6ec0aae"
-  integrity sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=
+"jsonfile@^6.0.1":
+  "integrity" "sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4="
+  "resolved" "https://registry.nlark.com/jsonfile/download/jsonfile-6.1.0.tgz"
+  "version" "6.1.0"
   dependencies:
-    universalify "^2.0.0"
+    "universalify" "^2.0.0"
   optionalDependencies:
-    graceful-fs "^4.1.6"
+    "graceful-fs" "^4.1.6"
 
-source-map@^0.5.0:
-  version "0.5.7"
-  resolved "https://registry.nlark.com/source-map/download/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
-  integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
+"source-map@^0.5.0":
+  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w="
+  "resolved" "https://registry.nlark.com/source-map/download/source-map-0.5.7.tgz"
+  "version" "0.5.7"
 
-to-fast-properties@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.nlark.com/to-fast-properties/download/to-fast-properties-2.0.0.tgz?cache=0&sync_timestamp=1628418893613&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fto-fast-properties%2Fdownload%2Fto-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
-  integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
+"to-fast-properties@^2.0.0":
+  "integrity" "sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4="
+  "resolved" "https://registry.nlark.com/to-fast-properties/download/to-fast-properties-2.0.0.tgz?cache=0&sync_timestamp=1628418893613&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fto-fast-properties%2Fdownload%2Fto-fast-properties-2.0.0.tgz"
+  "version" "2.0.0"
 
-universalify@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.nlark.com/universalify/download/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
-  integrity sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc=
+"universalify@^2.0.0":
+  "integrity" "sha1-daSYTv7cSwiXXFrrc/Uw0C3yVxc="
+  "resolved" "https://registry.nlark.com/universalify/download/universalify-2.0.0.tgz"
+  "version" "2.0.0"
